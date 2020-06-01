@@ -4,7 +4,7 @@ import classNames from "classnames";
 
 import styles from "./styles.scss";
 
-const PtmButton = ({
+const Button = ({
   id,
   name,
   type,
@@ -38,7 +38,7 @@ const PtmButton = ({
   );
 };
 
-PtmButton.propTypes = {
+Button.propTypes = {
   id: PropTypes.string,
   name: PropTypes.string,
   type: PropTypes.string,
@@ -50,7 +50,7 @@ PtmButton.propTypes = {
   className: PropTypes.string,
 };
 
-PtmButton.defaultProps = {
+Button.defaultProps = {
   id: "",
   name: "",
   type: "button",
@@ -61,4 +61,4 @@ PtmButton.defaultProps = {
   className: null,
 };
 
-export default PtmButton;
+export default Button;
