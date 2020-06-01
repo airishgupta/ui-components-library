@@ -1,0 +1,19 @@
+.button {
+  border: 0;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  border-radius: .5rem;
+  transition: all .15s ease-out;
+  text-align: center;
+  cursor: pointer;
+  min-width: 11rem; }
+
+.button_primary {
+  background: #00bbf5;
+  color: #fff;
+  border: 1px solid #00bbf5; }
+
+.button_disabled {
+  opacity: .6; }
+
